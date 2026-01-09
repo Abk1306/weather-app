@@ -1,0 +1,41 @@
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.card-image {
+  width: 120px;     /* smaller width */
+  height: 120px;    /* smaller height */
+  object-fit: contain; /* keeps aspect ratio */
+  margin: 0 auto 16px; /* center and add space below */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: hsl(240, 83%, 61%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-c
+}
